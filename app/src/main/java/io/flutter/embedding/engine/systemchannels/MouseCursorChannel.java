@@ -1,0 +1,59 @@
+package io.flutter.embedding.engine.systemchannels;
+
+import com.tekartik.sqflite.Constant;
+import io.flutter.Log;
+import io.flutter.embedding.engine.dart.DartExecutor;
+import io.flutter.plugin.common.MethodCall;
+import io.flutter.plugin.common.MethodChannel;
+import io.flutter.plugin.common.StandardMethodCodec;
+import java.util.HashMap;
+
+/* JADX INFO: loaded from: classes2.dex */
+public class MouseCursorChannel {
+    private static final String TAG = "MouseCursorChannel";
+    public final MethodChannel channel;
+    private MouseCursorMethodHandler mouseCursorMethodHandler;
+    private final MethodChannel.MethodCallHandler parsingMethodCallHandler;
+
+    public interface MouseCursorMethodHandler {
+        void activateSystemCursor(String str);
+    }
+
+    public MouseCursorChannel(DartExecutor dartExecutor) {
+        MethodChannel.MethodCallHandler methodCallHandler = new MethodChannel.MethodCallHandler() { // from class: io.flutter.embedding.engine.systemchannels.MouseCursorChannel.1
+            @Override // io.flutter.plugin.common.MethodChannel.MethodCallHandler
+            public void onMethodCall(MethodCall methodCall, MethodChannel.Result result) {
+                if (MouseCursorChannel.this.mouseCursorMethodHandler == null) {
+                    return;
+                }
+                String str = methodCall.method;
+                Log.v(MouseCursorChannel.TAG, "Received '" + str + "' message.");
+                try {
+                    if (((str.hashCode() == -1307105544 && str.equals("activateSystemCursor")) ? (byte) 0 : (byte) -1) != 0) {
+                        return;
+                    }
+                    try {
+                        MouseCursorChannel.this.mouseCursorMethodHandler.activateSystemCursor((String) ((HashMap) methodCall.arguments).get("kind"));
+                        result.success(true);
+                    } catch (Exception e) {
+                        result.error(Constant.PARAM_ERROR, "Error when setting cursors: " + e.getMessage(), null);
+                    }
+                } catch (Exception e2) {
+                    result.error(Constant.PARAM_ERROR, "Unhandled error: " + e2.getMessage(), null);
+                }
+            }
+        };
+        this.parsingMethodCallHandler = methodCallHandler;
+        MethodChannel methodChannel = new MethodChannel(dartExecutor, "flutter/mousecursor", StandardMethodCodec.INSTANCE);
+        this.channel = methodChannel;
+        methodChannel.setMethodCallHandler(methodCallHandler);
+    }
+
+    public void setMethodHandler(MouseCursorMethodHandler mouseCursorMethodHandler) {
+        this.mouseCursorMethodHandler = mouseCursorMethodHandler;
+    }
+
+    public void synthesizeMethodCall(MethodCall methodCall, MethodChannel.Result result) {
+        this.parsingMethodCallHandler.onMethodCall(methodCall, result);
+    }
+}

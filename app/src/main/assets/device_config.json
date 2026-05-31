@@ -1,0 +1,155 @@
+[{
+  "name": "W625",
+  "blacklist": "",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "SumMet", "GeneralHealth", "BloodPressure", "BloodSugar", "Meteorological", "GPSBase", "SportPlans", "StoreAppConfig", "CommandRemind", "WorldTime", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W629",
+  "blacklist": "",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "SumMet", "GeneralHealth", "Meteorological", "GPSBase", "SportPlans", "StoreAppConfig", "CommandRemind", "WorldTime", "SportTrace", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W6110",
+  "blacklist": "",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "SumMet", "GeneralHealth", "BloodPressure", "Temperature", "BloodSugar", "Meteorological", "GPSBase", "Muslim", "StoreAppConfig", "CommandRemind", "WorldTime", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W6116",
+  "blacklist": "",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "SumMet", "GeneralHealth", "Meteorological", "GPSBase", "Muslim", "SportPlans", "StoreAppConfig", "CommandRemind", "WorldTime", "SportTrace", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W318",
+  "blacklist": "",
+  "dial": {
+    "width": 240,
+    "height": 296
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["Contact", "HourSystem", "Muslim", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W6118",
+  "blacklist": "",
+  "dial": {
+    "width": 240,
+    "height": 284
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["Contact", "HourSystem", "Muslim", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W6123",
+  "blacklist": "Malaysia",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "Meteorological", "GPSBase", "Muslim", "CommandRemind", "MuslimPraise", "TasbinCount"]
+}, {
+  "name": "W6139",
+  "blacklist": "中国,China,Egypt,Libya,Tunisia,Algeria,Morocco,Sudan,Mauritania,Pakistan,Bangladesh,Kashmir,Afghanistan,Indonesia,Malaysia,Brunei,Maldives,Kazakhstan,Uzbekistan,Turkmenistan,Tajikistan,Kyrgyzstan,Afar,Zanzibar,Kenya,Albania,Bosnia and Herzegovina,Kosovo,Turkey,Azerbaijan,Adjara",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "Meteorological", "GPSBase", "Muslim", "CommandRemind", "MuslimPraise", "TasbinCount"]
+}, {
+  "name": "W6131",
+  "blacklist": "",
+  "dial": {
+    "width": 240,
+    "height": 284
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["Contact", "HourSystem", "Muslim", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W6129",
+  "blacklist": "",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "SumMet", "GeneralHealth", "Meteorological", "GPSBase", "Muslim", "SportPlans", "StoreAppConfig", "CommandRemind", "WorldTime", "SportTrace", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "V6320",
+  "dial": {
+    "width": 240,
+    "height": 320
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": "1.0.72",
+  "themeConfig": {
+    "width": 0.4,
+    "height": 0.5333,
+    "bottom": 0.206,
+    "isCenter": false,
+    "left": 0.293,
+    "isShowOil": true
+  }
+}, {
+  "name": "V6335",
+  "dial": {
+    "width": 240,
+    "height": 320
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": 0,
+  "themeConfig": {
+    "width": 0.4,
+    "height": 0.5333,
+    "bottom": 0.206,
+    "isCenter": false,
+    "left": 0.293,
+    "isShowOil": true
+  }
+}, {
+  "name": "V6324",
+  "dial": {
+    "width": 240,
+    "height": 240
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": 0,
+  "themeConfig": {
+    "width": 0.313,
+    "height": 0.313,
+    "bottom": 0.147,
+    "isCenter": false,
+    "left": 0.33,
+    "isShowOil": false
+  }
+}]

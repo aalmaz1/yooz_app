@@ -1,0 +1,17 @@
+package com.google.android.gms.internal.location;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-location@@21.0.1 */
+/* JADX INFO: loaded from: classes2.dex */
+final class zzdq extends zzdo {
+    private final zzds zza;
+
+    zzdq(zzds zzdsVar, int i) {
+        super(zzdsVar.size(), i);
+        this.zza = zzdsVar;
+    }
+
+    @Override // com.google.android.gms.internal.location.zzdo
+    protected final Object zza(int i) {
+        return this.zza.get(i);
+    }
+}

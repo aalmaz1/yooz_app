@@ -1,0 +1,29 @@
+package cn.baos.watch.w100.messages;
+
+import cn.baos.message.CatagoryEnum;
+import java.io.IOException;
+import org.msgpack.core.MessagePacker;
+import org.msgpack.core.MessageUnpacker;
+
+/* JADX INFO: loaded from: classes.dex */
+public class Sensor_data_sport_hrate extends Sensor_data {
+    public int heartrate;
+
+    @Override // cn.baos.watch.w100.messages.Sensor_data, cn.baos.watch.w100.messages.MessageBase, cn.baos.message.Serializable
+    public boolean put(MessagePacker messagePacker) throws IOException {
+        super.put(messagePacker);
+        messagePacker.packLong(this.heartrate);
+        return true;
+    }
+
+    @Override // cn.baos.watch.w100.messages.Sensor_data, cn.baos.watch.w100.messages.MessageBase, cn.baos.message.Serializable
+    public Sensor_data_sport_hrate load(MessageUnpacker messageUnpacker) throws IOException {
+        super.load(messageUnpacker);
+        this.heartrate = (int) messageUnpacker.unpackLong();
+        return this;
+    }
+
+    public Sensor_data_sport_hrate() {
+        this.catagory = CatagoryEnum.SENSOR_DATA_SPORT_HRATE;
+    }
+}

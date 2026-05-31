@@ -1,0 +1,310 @@
+[{
+  "name": "W625",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "",
+  "blacklistVersion": "",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "SumMet", "GeneralHealth", "BloodPressure", "BloodSugar", "Meteorological", "GPSBase", "SportPlans", "StoreAppConfig", "CommandRemind", "WorldTime", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W629",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "",
+  "blacklistVersion": "",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "SumMet", "GeneralHealth", "Meteorological", "GPSBase", "SportPlans", "StoreAppConfig", "CommandRemind", "WorldTime", "SportTrace", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W6110",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "",
+  "blacklistVersion": "",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "SumMet", "GeneralHealth", "BloodPressure", "Temperature", "BloodSugar", "Meteorological", "GPSBase", "Muslim", "StoreAppConfig", "CommandRemind", "WorldTime", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W6116",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "",
+  "blacklistVersion": "",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "SumMet", "GeneralHealth", "Meteorological", "GPSBase", "Muslim", "SportPlans", "StoreAppConfig", "CommandRemind", "WorldTime", "SportTrace", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W318",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "",
+  "blacklistVersion": "",
+  "dial": {
+    "width": 240,
+    "height": 296
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["Contact", "HourSystem", "Muslim", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W6118",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "",
+  "blacklistVersion": "",
+  "dial": {
+    "width": 240,
+    "height": 284
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["Contact", "HourSystem", "Muslim", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W6123",
+  "isOnlineMsl": true,
+  "isOnlineMslHijri": true,
+  "blacklist": "xyzxx",
+  "blacklistVersion": "1.0.82",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "Meteorological", "GPSBase", "Muslim", "CommandRemind", "MuslimPraise", "TasbinCount"]
+}, {
+  "name": "W6117",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "Malaysia",
+  "blacklistVersion": "1.0.82",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "Meteorological", "GPSBase", "Muslim", "CommandRemind", "MuslimPraise", "TasbinCount"]
+}, {
+  "name": "W6161",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "Malaysia",
+  "blacklistVersion": "1.0.82",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "Meteorological", "GPSBase", "Muslim", "CommandRemind", "MuslimPraise", "TasbinCount"]
+}, {
+  "name": "W6139",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "中国,China,Russia,Egypt,Libya,Tunisia,Algeria,Morocco,Sudan,Mauritania,Pakistan,Bangladesh,Kashmir,Afghanistan,Indonesia,Malaysia,Brunei,Maldives,Kazakhstan,Uzbekistan,Turkmenistan,Tajikistan,Kyrgyzstan,Afar,Zanzibar,Kenya,Albania,Bosnia and Herzegovina,Kosovo,Turkey,Azerbaijan,Adjara",
+  "blacklistVersion": "1.0.4",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "Meteorological", "GPSBase", "Muslim", "CommandRemind", "MuslimPraise", "TasbinCount"]
+}, {
+  "name": "W6131",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "",
+  "blacklistVersion": "",
+  "dial": {
+    "width": 240,
+    "height": 284
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["Contact", "HourSystem", "Muslim", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "W6129",
+  "isOnlineMsl": false,
+  "isOnlineMslHijri": false,
+  "blacklist": "",
+  "blacklistVersion": "",
+  "dial": {
+    "width": 320,
+    "height": 385
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 6,
+  "support": ["Contact", "HourSystem", "SumMet", "GeneralHealth", "Meteorological", "GPSBase", "Muslim", "SportPlans", "StoreAppConfig", "CommandRemind", "WorldTime", "SportTrace", "SportRecord", "BusinessCard", "Wallet"]
+}, {
+  "name": "V6320",
+  "dial": {
+    "width": 240,
+    "height": 320
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": "3.3.3",
+  "noticeSupportHmVersion": "3.3.3",
+  "sppVersion": "99.99.99",
+  "themeConfig": {
+    "width": 0.4,
+    "height": 0.5333,
+    "bottom": 0.206,
+    "isCenter": false,
+    "left": 0.293,
+    "isShowOil": true
+  }
+}, {
+  "name": "V6348",
+  "dial": {
+    "width": 240,
+    "height": 320
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": "0",
+  "noticeSupportHmVersion": "0",
+  "themeConfig": {
+    "width": 0.4,
+    "height": 0.5333,
+    "bottom": 0.206,
+    "isCenter": false,
+    "left": 0.293,
+    "isShowOil": true
+  }
+}, {
+  "name": "V6353",
+  "dial": {
+    "width": 240,
+    "height": 296
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": "0.0.0",
+  "noticeSupportHmVersion": "0.0.0",
+  "themeConfig": {
+    "width": 0.4,
+    "height": 0.5333,
+    "bottom": 0.206,
+    "isCenter": false,
+    "left": 0.293,
+    "isShowOil": true
+  }
+}, {
+  "name": "V6347",
+  "dial": {
+    "width": 240,
+    "height": 320
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": "1.0.0",
+  "noticeSupportHmVersion": "1.0.0",
+  "themeConfig": {
+    "width": 0.4,
+    "height": 0.5333,
+    "bottom": 0.206,
+    "isCenter": false,
+    "left": 0.293,
+    "isShowOil": true
+  }
+}, {
+  "name": "V6349",
+  "dial": {
+    "width": 240,
+    "height": 296
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": "0.0.0",
+  "noticeSupportHmVersion": "0.0.0",
+  "themeConfig": {
+    "width": 0.4,
+    "height": 0.5333,
+    "bottom": 0.206,
+    "isCenter": false,
+    "left": 0.293,
+    "isShowOil": true
+  }
+}, {
+  "name": "V6335",
+  "dial": {
+    "width": 240,
+    "height": 320
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": 99999999,
+  "noticeSupportHmVersion": 99999999,
+  "themeConfig": {
+    "width": 0.4,
+    "height": 0.5333,
+    "bottom": 0.206,
+    "isCenter": false,
+    "left": 0.293,
+    "isShowOil": false
+  }
+}, {
+  "name": "V6338",
+  "dial": {
+    "width": 240,
+    "height": 320
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": "0.0.0",
+  "noticeSupportHmVersion": "0.0.0",
+  "themeConfig": {
+    "width": 0.4,
+    "height": 0.5333,
+    "bottom": 0.206,
+    "isCenter": false,
+    "left": 0.293,
+    "isShowOil": false
+  }
+}, {
+  "name": "V6324",
+  "dial": {
+    "width": 240,
+    "height": 240
+  },
+  "minimumVersion": "1.0.0",
+  "albumNum": 1,
+  "support": ["HourSystem"],
+  "noticeSupportVersion": 999999,
+  "noticeSupportHmVersion": 999999,
+  "themeConfig": {
+    "width": 0.313,
+    "height": 0.313,
+    "bottom": 0.147,
+    "isCenter": false,
+    "left": 0.33,
+    "isShowOil": false
+  }
+}]

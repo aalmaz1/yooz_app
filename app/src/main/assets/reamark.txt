@@ -1,0 +1,43 @@
+{
+    "package_name": "cn.baos.watch.sdk.messages",
+    "objects": [
+        {
+            "name": "CommandTestRequest",
+            "extend": "MessageBase",
+            "vars": [
+                {
+                    "var_name": "test_function",
+                    "var_type": "uint32_t"
+                }
+            ],
+            "is_message": true
+        }
+    ],
+    "comments":"test_function:测试请求分类----0：开启asr识别 /1：音乐控制虚拟按键"
+}
+
+{
+    "package_name": "cn.baos.watch.sdk.messages",
+    "objects": [
+      {
+        "name": "CommandTestResponse",
+        "extend": "MessageBase",
+        "vars": [
+          {
+            "var_name": "function",
+            "var_type": "uint8_t"
+          },
+          {
+            "var_name": "result",
+            "var_type": "uint8_t"
+          },
+          {
+            "var_name": "content",
+            "var_type": "char*"
+          }
+        ],
+        "is_message": true
+      }
+    ],
+    "comments":"result:0成功/1失败;content:附加注释;function:(0:ota测试反馈;1:语音定闹钟反馈;2:设置时间反馈;)"
+  }

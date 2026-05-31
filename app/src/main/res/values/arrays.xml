@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="str_app_name_list">
+        <item>Messages</item>
+        <item>Calendar</item>
+        <item>Mail</item>
+        <item>Instagram</item>
+        <item>WhatsApp</item>
+        <item>TikTok</item>
+        <item>Viber</item>
+        <item>Skype</item>
+        <item>Facebook</item>
+        <item>Messenger</item>
+        <item>Snapchat</item>
+        <item>YouTube</item>
+        <item>Spotify</item>
+        <item>Telegram</item>
+        <item>Google Maps</item>
+        <item>HBO Max</item>
+        <item>Netflix</item>
+        <item>CapCut</item>
+        <item>Cash App</item>
+        <item>Zoom</item>
+        <item>SHEIN</item>
+        <item>Gmail</item>
+        <item>Subway Surfers</item>
+        <item>X</item>
+        <item>Tinder</item>
+        <item>LinkedIn</item>
+        <item>Reddit</item>
+        <item>Pinterest</item>
+        <item>WeChat</item>
+        <item>Quora</item>
+        <item>Threads</item>
+        <item>Twitch</item>
+        <item>Weibo</item>
+        <item>Tumblr</item>
+        <item>Discord</item>
+        <item>Douyin</item>
+        <item>Kuaishou</item>
+        <item>Bumble</item>
+        <item>Coffee Meets Bagel</item>
+        <item>Match.com</item>
+        <item>Zoosk</item>
+        <item>Badoo</item>
+        <item>ChristianMingle</item>
+        <item>Raya</item>
+        <item>Thursday</item>
+        <item>LINE WORKS</item>
+        <item>Asana</item>
+        <item>Mailchimp Email Marketing</item>
+        <item>QuickBooks</item>
+        <item>Slack</item>
+        <item>Microsoft 365</item>
+        <item>Trello</item>
+        <item>PayPal</item>
+        <item>Square</item>
+        <item>HubSpot CRM</item>
+        <item>Dropbox</item>
+        <item>Evernote</item>
+        <item>RescueTime Classic</item>
+        <item>Basecamp</item>
+        <item>Buffer</item>
+    </array>
+    <array name="str_app_name_list_default_check">
+        <item>Messages</item>
+        <item>Calendar</item>
+        <item>Mail</item>
+        <item>Instagram</item>
+        <item>WhatsApp</item>
+        <item>TikTok</item>
+        <item>Viber</item>
+        <item>Skype</item>
+        <item>Facebook</item>
+        <item>Meta</item>
+        <item>Messenger</item>
+        <item>Snapchat</item>
+        <item>YouTube</item>
+        <item>Spotify</item>
+        <item>Telegram</item>
+        <item>Google Maps</item>
+        <item>HBO Max</item>
+        <item>Netflix</item>
+        <item>CapCut</item>
+        <item>Cash App</item>
+        <item>Zoom</item>
+        <item>SHEIN</item>
+        <item>Gmail</item>
+        <item>Subway Surfers</item>
+        <item>X</item>
+        <item>Tinder</item>
+        <item>LinkedIn</item>
+        <item>Reddit</item>
+        <item>Pinterest</item>
+        <item>WeChat</item>
+        <item>Quora</item>
+        <item>Threads</item>
+        <item>Twitch</item>
+        <item>Weibo</item>
+        <item>Tumblr</item>
+        <item>Discord</item>
+        <item>Douyin</item>
+        <item>Kuaishou</item>
+        <item>Bumble</item>
+        <item>Coffee Meets Bagel</item>
+        <item>Match.com</item>
+        <item>Zoosk</item>
+        <item>Badoo</item>
+        <item>ChristianMingle</item>
+        <item>Raya</item>
+        <item>Thursday</item>
+        <item>LINE WORKS</item>
+        <item>Asana</item>
+        <item>Mailchimp Email Marketing</item>
+        <item>QuickBooks</item>
+        <item>Slack</item>
+        <item>Microsoft 365</item>
+        <item>Trello</item>
+        <item>PayPal</item>
+        <item>Square</item>
+        <item>HubSpot CRM</item>
+        <item>Dropbox</item>
+        <item>Evernote</item>
+        <item>RescueTime Classic</item>
+        <item>Basecamp</item>
+        <item>Buffer</item>
+    </array>
+    <array name="str_app_package_name_list">
+        <item>com.android.mms</item>
+        <item>com.android.calendar</item>
+        <item>com.android.email</item>
+        <item>com.instagram.android</item>
+        <item>com.whatsapp</item>
+        <item>com.zhiliaoapp.musically</item>
+        <item>com.viber.voip</item>
+        <item>com.skype.raider</item>
+        <item>com.facebook.katana</item>
+        <item>com.facebook.orca</item>
+        <item>com.snapchat.android</item>
+        <item>com.google.android.youtube</item>
+        <item>com.spotify.music</item>
+        <item>org.telegram.messenger</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.hbo.hbonow</item>
+        <item>com.netflix.mediaclient</item>
+        <item>com.lemon.lvoverseas</item>
+        <item>com.squareup.cash</item>
+        <item>us.zoom.videomeetings</item>
+        <item>com.zzkko</item>
+        <item>com.google.android.gm</item>
+        <item>com.kiloo.subwaysurf</item>
+        <item>com.twitter.android</item>
+        <item>com.tinder</item>
+        <item>com.linkedin.android</item>
+        <item>com.reddit.frontpage</item>
+        <item>com.pinterest</item>
+        <item>com.tencent.mm</item>
+        <item>com.quora.android</item>
+        <item>com.instagram.barcelona</item>
+        <item>tv.twitch.android.app</item>
+        <item>com.sina.weibo</item>
+        <item>com.tumblr</item>
+        <item>com.discord</item>
+        <item>com.ss.android.ugc.aweme</item>
+        <item>com.smile.gifmaker</item>
+        <item>com.bumble.app</item>
+        <item>com.coffeemeetsbagel</item>
+        <item>com.match.android.matchmobile</item>
+        <item>com.zoosk.zoosk</item>
+        <item>com.badoo.mobile</item>
+        <item>com.spark.christianmingle</item>
+        <item>com.rayatheapp</item>
+        <item>com.thursday.app</item>
+        <item>com.worksmobile.android.wm</item>
+        <item>com.asana.app</item>
+        <item>com.mailchimp.android</item>
+        <item>com.intuit.qbse</item>
+        <item>com.Slack</item>
+        <item>com.microsoft.office.officehubrow</item>
+        <item>com.trello</item>
+        <item>com.paypal.android.p2pmobile</item>
+        <item>com.squareup</item>
+        <item>com.hubspot.android</item>
+        <item>com.dropbox.android</item>
+        <item>com.evernote</item>
+        <item>com.rescuetime.android</item>
+        <item>com.basecamp.bc3</item>
+        <item>org.buffer.android</item>
+    </array>
+</resources>
